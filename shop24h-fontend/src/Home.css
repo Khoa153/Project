@@ -1,0 +1,34 @@
+// Total
+
+.back-to-product {
+    color: 'black';
+}
+.back-to-product:hover {
+    color: #00FFFF;
+}
+
+.icon-card {
+    transition: all 0.3s ease-in-out;
+  }
+  .icon-card:hover {
+    transition: all 0.3s ease-in-out;
+    margin-bottom:15px;
+    transform: scale(1.1);
+  }
+  .icon-card:not(:hover) {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1); 
+  }
+  // Home
+  .product-home{
+    transition: all 0.3s ease-in-out;
+  }
+  .product-home:hover  {
+    transition: all 0.3s ease-in-out;
+    margin-bottom:15px;
+    transform: scale(1.1);
+  }
+  .product-home:not(:hover) {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
